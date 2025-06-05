@@ -1,0 +1,35 @@
+| Variable                | Descripción                                                                 | Tipo de dato |
+|-------------------------|------------------------------------------------------------------------------|--------------|
+| Month                   | Mes en que ocurrió el accidente                                             | Categórico       |
+| WeekOfMonth             | Semana del mes en que ocurrió el accidente                                  | Categórico        |
+| DayOfWeek               | Día de la semana en que ocurrió el accidente                                | Categórico       |
+| Make                    | Marca del vehículo                                                          | Categórico       |
+| AccidentArea            | Zona del accidente                                                          | Categórico       |
+| DayOfWeekClaimed        | Día de la semana en que se hizo la reclamación                              | Categórico       |
+| MonthClaimed            | Mes en que se realizó la reclamación                                        | Categórico       |
+| WeekOfMonthClaimed      | Semana del mes en que se hizo la reclamación                                | Categórico        |
+| Sex                     | Sexo del asegurado                                                          | Categórico       |
+| MaritalStatus           | Estado civil del asegurado                                                  | Categórico       |
+| Age                     | Edad del asegurado                                                          | Numérico        |
+| Fault                   | Determina si la culpa fue del asegurado o de un tercero                     | Categórico       |
+| PolicyType              | Tipo de póliza contratada                                                   | Categórico       |
+| VehicleCategory         | Categoría del vehículo (por ejemplo: sedán, SUV, etc.)                      | Categórico       |
+| VehiclePrice            | Rango de precio del vehículo                                                | Categórico       |
+| FraudFound_P            | Variable objetivo: 1 si hubo fraude, 0 si no                                 | Numérico        |
+| PolicyNumber            | Número de póliza (identificador)                                            | Categórico        |
+| RepNumber               | Número de representante que procesó la reclamación                          | Numérico        |
+| Deductible              | Deducible acordado en la póliza (monto que el asegurado debe pagar)         | Numérico        |
+| DriverRating            | Calificación del conductor (1 a 4, donde 1 es peor y 4 mejor)                | Numérico        |
+| Days_Policy_Accident    | Tiempo desde la contratación hasta el accidente                             | Categórico       |
+| Days_Policy_Claim       | Tiempo desde la contratación hasta la reclamación                           | Categórico       |
+| PastNumberOfClaims      | Número de reclamaciones pasadas                                             | Categórico       |
+| AgeOfVehicle            | Antigüedad del vehículo                                                     | Categórico       |
+| AgeOfPolicyHolder       | Rango de edad del titular de la póliza                                      | Categórico       |
+| PoliceReportFiled       | Indica si se presentó un informe policial                                   | Categórico       |
+| WitnessPresent          | Indica si hubo testigos presentes                                           | Categórico       |
+| AgentType               | Tipo de agente de seguros (independiente o corporativo)                     | Categórico       |
+| NumberOfSuppliments     | Número de suplementos (documentos adicionales presentados)                  | Categórico       |
+| AddressChange_Claim     | Cambio de dirección cercano a la fecha de la reclamación                    | Categórico       |
+| NumberOfCars            | Número de autos cubiertos por la póliza                                     | Categórico       |
+| Year                    | Año en que se registró el accidente o reclamo                               | Numérico        |
+| BasePolicy              | Tipo base de la póliza (por ejemplo: Liability, Collision, etc.)            | Categórico       |
